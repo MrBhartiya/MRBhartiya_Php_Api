@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "821877139173",
+    "firebase_url": "https://bulkeducation.firebaseio.com",
+    "project_id": "bulkeducation",
+    "storage_bucket": "bulkeducation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821877139173:android:d9416a105e21d9e6d2160c",
+        "android_client_info": {
+          "package_name": "com.mrbhartiya.education"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821877139173-frq5q6li8t1dq7k4t3deeu7pgsbbumq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrbhartiya.education",
+            "certificate_hash": "654ee7f6a3fa05fa17a3573d413cac56b79ee892"
+          }
+        },
+        {
+          "client_id": "821877139173-7k6mda7n414qcv3bg3uqj9qsskukc0dp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrbhartiya.education",
+            "certificate_hash": "e9e89f95710d69ab3ff6c21974333841786dc488"
+          }
+        },
+        {
+          "client_id": "821877139173-ob30gnoppsqmjer2intr312ltprrugd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxPkx2k6Z1WE8M9dNr9utt_qLHk3Dx7wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821877139173-ob30gnoppsqmjer2intr312ltprrugd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
