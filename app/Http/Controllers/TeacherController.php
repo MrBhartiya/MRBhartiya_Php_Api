@@ -99,9 +99,7 @@ class TeacherController extends Controller
 
         $teacher=Teacher::find($request->id);
         $teacher->teacher_name=$request->teacher_name;
-        if(isset($path)){
-            $teacher->teacher_image=$path;
-        }
+        
         if($request->has('teacher_image') && isset($request->teacher_image) && $request->teacher_image!=""){
             $image = $request->file('teacher_image');
             $timestamp = now()->timestamp;
@@ -110,6 +108,9 @@ class TeacherController extends Controller
             if(Storage::disk('s3')->exists($teacher->teacher_image)) {
                 Storage::disk('s3')->delete($teacher->teacher_image);
             }
+        }
+        if(isset($path)){
+            $teacher->teacher_image=$path;
         }
         $teacher->education=$request->education;
         $teacher->display=$request->display;
